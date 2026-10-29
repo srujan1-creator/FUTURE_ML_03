@@ -1,0 +1,20 @@
+Priya Sharma
+Email: priya.sharma@example.com | San Jose, CA
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 4 years of experience delivering robust web platforms using React, Node.js, Express, TypeScript, and relational databases.
+
+SKILLS
+- Languages: JavaScript, TypeScript, Python, SQL, HTML/CSS
+- Frameworks: React, Node.js, Express, Next.js, Tailwind CSS
+- Databases: PostgreSQL, MySQL, MongoDB
+- Tools: Docker, Git / Version Control, Jest, CI/CD, Agile / Scrum
+
+EXPERIENCE
+Full Stack Software Engineer | TechSphere Solutions (2020 - Present)
+- Built modular React web components and backend Node.js microservices.
+- Created automated unit testing suites in Jest and implemented GitHub Actions CI/CD.
+- Integrated payment gateways and external partner RESTful APIs.
+
+EDUCATION
+- M.S. in Computer Science, San Jose State University (2020)

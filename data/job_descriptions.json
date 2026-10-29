@@ -1,0 +1,47 @@
+[
+  {
+    "id": "jd_ml_senior",
+    "title": "Senior Machine Learning Engineer",
+    "department": "Artificial Intelligence & Core ML",
+    "seniority": "Senior",
+    "min_experience_years": 5.0,
+    "min_education": "Master's Degree",
+    "text": "Title: Senior Machine Learning Engineer\nDepartment: Core AI Platform\nLocation: Remote / Hybrid\n\nAbout The Role:\nWe are seeking an experienced Senior Machine Learning Engineer to design, train, and deploy production ML models at enterprise scale. You will partner with data engineering and platform teams to build resilient MLOps pipelines and deliver high-impact predictive systems.\n\nRequirements & Must-Have Qualifications:\n- 5+ years of professional experience in Machine Learning and Software Engineering.\n- Mastery of Python, SQL, and core scientific computing libraries (NumPy, Pandas, SciPy).\n- Production expertise with Deep Learning frameworks: PyTorch and TensorFlow.\n- Strong hands-on experience with Scikit-Learn, XGBoost, and classical ML algorithms.\n- Proven experience containerizing models using Docker and orchestrating with Kubernetes.\n- Deep understanding of MLOps pipelines, model registry, and CI/CD (MLflow, Weights & Biases).\n- Cloud experience with AWS (SageMaker, S3, EC2) or GCP (Vertex AI).\n- Solid foundation in System Design, Distributed Systems, and Unit Testing.\n\nNice to Have & Preferred Qualifications:\n- Experience with Large Language Models (LLMs), Transformers, and LangChain.\n- Familiarity with Vector Databases (Pinecone, Chroma, Milvus) and RAG architecture.\n- Experience with Apache Spark and Apache Kafka for real-time streaming inference.\n- Master's or Ph.D. in Computer Science, Data Science, or related STEM field."
+  },
+  {
+    "id": "jd_fullstack",
+    "title": "Senior Full Stack Developer",
+    "department": "Product Engineering",
+    "seniority": "Senior",
+    "min_experience_years": 4.0,
+    "min_education": "Bachelor's Degree",
+    "text": "Title: Senior Full Stack Developer (React + Node.js)\nDepartment: Web Application Engineering\nLocation: San Francisco, CA / Remote\n\nAbout The Role:\nWe are looking for a Senior Full Stack Engineer to lead the architecture and development of our customer-facing web platforms. You will design scalable RESTful APIs, build performant React frontends, and ensure high code quality.\n\nRequirements & Must-Have Qualifications:\n- 4+ years of professional web development experience.\n- Deep expertise in JavaScript (ES6+), TypeScript, and modern frontend frameworks (React, Next.js).\n- Strong backend experience with Node.js, Express, and RESTful APIs design.\n- Production proficiency with relational databases: PostgreSQL and MySQL.\n- Experience with state management, HTML/CSS, and Tailwind CSS.\n- Solid understanding of Git / Version Control, Unit Testing (Jest, Pytest), and CI/CD.\n- Experience with Docker containerization and cloud hosting.\n\nNice to Have & Preferred Qualifications:\n- Familiarity with GraphQL, Redis caching, and WebSockets.\n- Experience with Microservices architecture and AWS cloud services.\n- Familiarity with Python, Django, or FastAPI.\n- Bachelor's degree in Computer Science or equivalent practical experience."
+  },
+  {
+    "id": "jd_devops_sre",
+    "title": "DevOps & Site Reliability Engineer",
+    "department": "Cloud Infrastructure",
+    "seniority": "Senior",
+    "min_experience_years": 4.0,
+    "min_education": "Bachelor's Degree",
+    "text": "Title: DevOps & Site Reliability Engineer (SRE)\nDepartment: Cloud Operations\nLocation: Austin, TX / Remote\n\nAbout The Role:\nJoin our infrastructure squad to ensure 99.99% uptime, automate cloud provisioning, and build resilient continuous delivery pipelines across multi-region environments.\n\nRequirements & Must-Have Qualifications:\n- 4+ years of hands-on experience in DevOps, Cloud Engineering, or SRE roles.\n- Deep expertise with Linux systems administration and Bash/Shell scripting.\n- Advanced mastery of Docker and Kubernetes (EKS/GKE cluster administration, Helm).\n- Strong proficiency in Infrastructure as Code (IaC) using Terraform and Ansible.\n- Extensive experience designing CI/CD pipelines (GitHub Actions, GitLab CI, Jenkins).\n- Solid experience with AWS (VPC, IAM, EC2, S3, CloudWatch) or GCP.\n- Scripting proficiency in Python or Go for infrastructure automation.\n- Production monitoring and telemetry using Prometheus, Grafana, and ELK stack.\n\nNice to Have & Preferred Qualifications:\n- Experience managing PostgreSQL / Redis clusters at scale.\n- Knowledge of System Design, security compliance (SOC2), and incident response.\n- Bachelor's degree in Computer Science or related technical discipline."
+  },
+  {
+    "id": "jd_data_analyst",
+    "title": "Lead Data Analyst & Business Intelligence",
+    "department": "Data & Analytics",
+    "seniority": "Mid-Level",
+    "min_experience_years": 3.0,
+    "min_education": "Bachelor's Degree",
+    "text": "Title: Lead Data Analyst & Business Intelligence\nDepartment: Strategic Analytics\nLocation: New York, NY / Hybrid\n\nAbout The Role:\nWe are seeking an analytical problem-solver to translate complex transactional data into strategic business insights, executive dashboards, and statistical models.\n\nRequirements & Must-Have Qualifications:\n- 3+ years of professional analytics experience.\n- Advanced SQL proficiency (complex joins, window functions, query optimization).\n- Hands-on data manipulation in Python (Pandas, NumPy, Matplotlib, Seaborn).\n- Experience building dashboards in Tableau, PowerBI, or Looker.\n- Strong grounding in Statistics, A/B Testing, and quantitative hypothesis validation.\n- Demonstrated Problem Solving, Communication, and Stakeholder Management skills.\n\nNice to Have & Preferred Qualifications:\n- Familiarity with Data Warehousing (Snowflake, BigQuery, dbt).\n- Basic exposure to Machine Learning concepts (Scikit-Learn, regression, clustering).\n- Bachelor's in Mathematics, Statistics, Economics, or Computer Science."
+  },
+  {
+    "id": "jd_llm_genai",
+    "title": "Generative AI & LLM Systems Engineer",
+    "department": "Applied Research",
+    "seniority": "Senior",
+    "min_experience_years": 4.0,
+    "min_education": "Master's Degree",
+    "text": "Title: Generative AI & LLM Systems Engineer\nDepartment: Applied AI Labs\nLocation: Remote\n\nAbout The Role:\nBuild cutting-edge enterprise Agentic AI systems, Retrieval-Augmented Generation (RAG) pipelines, and fine-tune foundation models for production applications.\n\nRequirements & Must-Have Qualifications:\n- 4+ years in software engineering with 2+ years dedicated to NLP / Generative AI.\n- Mastery of Python and Deep Learning frameworks (PyTorch, Transformers / Hugging Face).\n- Deep expertise with Large Language Models (LLMs), Prompt Engineering, and RAG architectures.\n- Experience with LangChain, LlamaIndex, and Vector Databases (Pinecone, Chroma, Qdrant).\n- Strong backend engineering with FastAPI, RESTful APIs, and asynchronous processing.\n- Containerization with Docker and deployment on AWS or GCP.\n\nNice to Have & Preferred Qualifications:\n- Fine-tuning experience (LoRA, QLoRA, PEFT) on open-source weights (Llama, Mistral).\n- Experience with MLOps tools (MLflow, Weights & Biases) and evaluation frameworks.\n- Master's or Ph.D. in Computer Science or Artificial Intelligence."
+  }
+]

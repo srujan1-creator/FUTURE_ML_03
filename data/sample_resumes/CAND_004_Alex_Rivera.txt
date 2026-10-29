@@ -1,0 +1,25 @@
+Alex Rivera
+Email: alex.rivera@example.com | New York, NY | github.com/arivera-dev
+
+EXECUTIVE SUMMARY
+Senior Full Stack Engineer with 5.5 years of experience building high-throughput web applications. Expert in React, Next.js, Node.js, TypeScript, PostgreSQL, and Dockerized cloud microservices.
+
+TECHNICAL SKILLS
+- Frontend: React, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind CSS, Redux
+- Backend: Node.js, Express, RESTful APIs, GraphQL, Microservices
+- Databases: PostgreSQL, MySQL, Redis, MongoDB
+- DevOps & Tools: Docker, Git / Version Control, Testing & QA (Jest, Cypress), CI/CD, AWS
+- Practices: System Design, Agile / Scrum, Code Review
+
+EXPERIENCE
+Senior Full Stack Engineer | Nova Web Labs (2021 - Present)
+- Led frontend migration to Next.js and React with TypeScript, improving Core Web Vitals by 42%.
+- Designed and documented scalable RESTful APIs in Node.js and Express serving 2M monthly users.
+- Optimized PostgreSQL database queries, reducing p99 latency from 850ms to 95ms.
+
+Full Stack Developer | PixelCraft Studio (2019 - 2021)
+- Developed responsive web interfaces using React, JavaScript, and Tailwind CSS.
+- Implemented backend authentication and user management using Node.js and PostgreSQL.
+
+EDUCATION
+- B.S. in Software Engineering, Rochester Institute of Technology (2019)

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening & Ranking System | Future Interns</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #0f172a;
+            --bg-light: #f8fafc;
+        }
+        body {
+            background-color: var(--bg-light);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #334155;
+        }
+        .navbar-brand {
+            font-weight: 700;
+            color: #0f172a !important;
+            letter-spacing: -0.5px;
+        }
+        .card-custom {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            background: #ffffff;
+        }
+        .badge-strong { background-color: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+        .badge-moderate { background-color: #dbeafe; color: #1d4ed8; border: 1px solid #bfdbfe; }
+        .badge-upskill { background-color: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+        .badge-reject { background-color: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+        .pill-skill {
+            display: inline-block;
+            padding: 3px 8px;
+            margin: 2px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .pill-req { background: #dcfce7; color: #166534; }
+        .pill-gap { background: #fee2e2; color: #991b1b; }
+        .progress-bar-custom {
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white border-bottom shadow-sm py-3">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <i class="fa-solid fa-briefcase text-primary me-2 fs-4"></i>
+            <span>Future Interns &bull; Candidate Screening System</span>
+        </a>
+        <span class="badge bg-primary px-3 py-2 rounded-pill">Machine Learning Task 3 (2026)</span>
+    </div>
+</nav>
+
+<div class="container py-4">
+    <div class="row g-4">
+        <!-- Input Form -->
+        <div class="col-lg-5">
+            <div class="card card-custom p-4 mb-4">
+                <h5 class="fw-bold mb-3"><i class="fa-solid fa-sliders me-2 text-primary"></i>Screening Configuration</h5>
+                
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Select Target Job Role</label>
+                    <select id="jobSelect" class="form-select" onchange="onJobChange()">
+                        <option value="0">Senior Machine Learning Engineer</option>
+                        <option value="1">Senior Full Stack Developer</option>
+                        <option value="2">DevOps & Site Reliability Engineer</option>
+                        <option value="3">Lead Data Analyst</option>
+                        <option value="4">Generative AI & LLM Systems Engineer</option>
+                        <option value="custom">-- Custom Job Description --</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Job Description</label>
+                    <textarea id="jobText" class="form-control" rows="8" placeholder="Paste Job Description here..."></textarea>
+                </div>
+
+                <button class="btn btn-primary w-100 fw-bold py-2" onclick="runScreening()">
+                    <i class="fa-solid fa-bolt me-2"></i>Screen & Rank Benchmark Pool
+                </button>
+            </div>
+        </div>
+
+        <!-- Leaderboard Display -->
+        <div class="col-lg-7">
+            <div class="card card-custom p-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="fw-bold mb-0"><i class="fa-solid fa-trophy me-2 text-warning"></i>Candidate Leaderboard</h5>
+                    <span id="screenCount" class="badge bg-secondary">Awaiting Run</span>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle" id="resultsTable">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Rank</th>
+                                <th>Candidate</th>
+                                <th>Fit Tier</th>
+                                <th>Composite Fit</th>
+                                <th>Core Match</th>
+                                <th>Missing Critical Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td colspan="6" class="text-center text-muted py-4">
+                                    Click <strong>"Screen & Rank Benchmark Pool"</strong> to process resumes through the NLP engine.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="explanationBox" class="alert alert-info mt-3 d-none">
+                    <h6 class="fw-bold"><i class="fa-solid fa-circle-info me-2"></i>Top Candidate Rationale:</h6>
+                    <p id="explanationText" class="mb-0 small"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+let sampleJobs = [];
+
+fetch('/api/jobs')
+    .then(r => r.json())
+    .then(data => {
+        sampleJobs = data;
+        if (sampleJobs.length > 0) {
+            document.getElementById('jobText').value = sampleJobs[0].text;
+        }
+    })
+    .catch(e => console.log(e));
+
+function onJobChange() {
+    const val = document.getElementById('jobSelect').value;
+    if (val !== 'custom') {
+        document.getElementById('jobText').value = sampleJobs[parseInt(val)].text;
+    }
+}
+
+function runScreening() {
+    const jdText = document.getElementById('jobText').value;
+    const tbody = document.getElementById('tableBody');
+    tbody.innerHTML = '<tr><td colspan="6" class="text-center py-4"><div class="spinner-border text-primary"></div></td></tr>';
+
+    fetch('/api/screen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ job_description: jdText })
+    })
+    .then(r => r.json())
+    .then(data => {
+        if (!data.rankings || data.rankings.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="6" class="text-center text-danger py-4">No candidates processed.</td></tr>';
+            return;
+        }
+
+        document.getElementById('screenCount').innerText = `${data.rankings.length} Screened`;
+
+        let html = '';
+        data.rankings.forEach(c => {
+            let badgeClass = 'badge-moderate';
+            if (c['Fit Tier'].includes('Strong')) badgeClass = 'badge-strong';
+            else if (c['Fit Tier'].includes('Needs')) badgeClass = 'badge-upskill';
+            else if (c['Fit Tier'].includes('Low')) badgeClass = 'badge-reject';
+
+            html += `<tr>
+                <td class="fw-bold">#${c.Rank}</td>
+                <td>
+                    <div class="fw-bold">${c['Candidate Name']}</div>
+                    <small class="text-muted">${c['Experience (Years)']} yrs exp</small>
+                </td>
+                <td><span class="badge ${badgeClass}">${c['Fit Tier']}</span></td>
+                <td>
+                    <div class="fw-bold text-primary">${c['Composite Score (%)']}%</div>
+                </td>
+                <td>${c['Required Skill Match (%)']}%</td>
+                <td><small class="text-danger">${c['Missing Critical Skills'] || 'None'}</small></td>
+            </tr>`;
+        });
+
+        tbody.innerHTML = html;
+
+        if (data.rankings.length > 0) {
+            const top = data.rankings[0];
+            document.getElementById('explanationBox').classList.remove('d-none');
+            document.getElementById('explanationText').innerHTML = `<strong>#1 ${top['Candidate Name']} (${top['Composite Score (%)']}%):</strong> ${top['Recruiter Explanation']}`;
+        }
+    })
+    .catch(err => {
+        tbody.innerHTML = `<tr><td colspan="6" class="text-center text-danger py-4">Error: ${err}</td></tr>`;
+    });
+}
+</script>
+
+</body>
+</html>

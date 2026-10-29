@@ -1,0 +1,385 @@
+Rank,Candidate ID,Candidate Name,Fit Tier,Composite Score (%),Required Skill Match (%),Semantic Similarity (%),Preferred Skill Match (%),Experience Score (%),Experience (Years),Education,Extracted Skills Count,Matched Required Skills,Missing Critical Skills,Matched Preferred Skills,Surplus Skills,Recruiter Explanation,Recommended Action,_tier_color,_matched_req_list,_missing_req_list,_matched_pref_list,_surplus_list,_raw_text
+1,CAND_001,Dr. Sarah Chen,Strong Fit (Shortlist),82.85,94.74,76.82,33.33,100.0,6.5,Ph.D.,26,"AWS, CI/CD, Deep Learning, Docker, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",GCP,"Large Language Models, Transformers","Agile / Scrum, Bash/Shell, C, Git / Version Control, Natural Language Processing, Recommendation Systems","Dr. Sarah Chen is a top-tier candidate with 94.7% required skill coverage (18/19 skills: AWS, CI/CD, Deep Learning, Docker). Meets required experience (6.5 yrs vs 5.0 yrs required). Only misses secondary skills: GCP.",Fast-track to Recruiter Phone Screen / Technical Round 1.,#22c55e,"['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",['GCP'],"['Large Language Models', 'Transformers']","['Agile / Scrum', 'Bash/Shell', 'C', 'Git / Version Control', 'Natural Language Processing', 'Recommendation Systems']","Dr. Sarah Chen, Ph.D.
+Email: sarah.chen@example.com | Phone: +1-555-019-2834 | LinkedIn: linkedin.com/in/sarahchen-ml
+San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 6.5 years of experience researching, architecting, and deploying predictive ML and Deep Learning systems to cloud production. Expert in PyTorch, Scikit-Learn, MLOps, and Kubernetes-orchestrated distributed model serving.
+
+TECHNICAL SKILLS
+- Programming: Python, SQL, C++, Bash/Shell
+- ML & Deep Learning: Machine Learning, Deep Learning, PyTorch, TensorFlow, Scikit-Learn, XGBoost, Pandas, NumPy, SciPy
+- MLOps & Cloud: MLOps, MLflow, Docker, Kubernetes, AWS (SageMaker, S3, EC2), CI/CD
+- Architecture & Practices: System Design, Distributed Systems, Git / Version Control, Unit Testing, Agile / Scrum
+- Bonus Skills: Transformers, Natural Language Processing, Vector Databases, Large Language Models
+
+WORK EXPERIENCE
+Staff Machine Learning Engineer | HyperScale AI (2021 - Present)
+- Architected automated MLOps training and evaluation pipeline using MLflow, Docker, and Kubernetes on AWS, cutting model retraining turnaround by 65%.
+- Developed real-time recommendation systems and gradient boosting models using Scikit-Learn and XGBoost handling 40M daily predictions.
+- Led model governance, drift monitoring, and CI/CD deployment pipelines with zero downtime.
+
+Machine Learning Engineer | Apex Analytics (2018 - 2021)
+- Built deep learning NLP classification models in PyTorch and TensorFlow for multi-lingual text extraction.
+- Engineered automated feature stores in SQL and Pandas, collaborating closely with data engineering.
+
+EDUCATION
+- Ph.D. in Computer Science (Machine Learning Focus), Stanford University (2018)
+- B.S. in Computer Science, UC Berkeley (2014)"
+2,CAND_002,Marcus Vance,Moderate Fit (Review),67.74,89.47,49.94,0.0,100.0,5.0,Master's Degree,21,"AWS, CI/CD, Deep Learning, Docker, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost","GCP, SciPy",None,"FastAPI, Git / Version Control, Linux, Microservices","Marcus Vance demonstrates moderate alignment (89.5% core skill match). Strong in AWS, CI/CD, Deep Learning, but has key skill gaps in GCP, SciPy.",Review portfolio / assess trainable gaps in technical assessment.,#3b82f6,"['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']","['GCP', 'SciPy']",[],"['FastAPI', 'Git / Version Control', 'Linux', 'Microservices']","Marcus Vance, M.S.
+Email: marcus.vance@example.com | Phone: +1-555-014-9921
+Seattle, WA
+
+SUMMARY
+Results-driven Machine Learning Engineer with 5 years of industry experience. Specialized in productionizing supervised and unsupervised algorithms, building scalable RESTful APIs, and implementing robust MLOps practices on AWS.
+
+TECHNICAL SKILLS
+- Core: Python, SQL, Scikit-Learn, PyTorch, TensorFlow, XGBoost, Pandas, NumPy
+- Infrastructure: Docker, Kubernetes, AWS (SageMaker, EC2, S3), CI/CD, MLOps, Linux
+- Software Engineering: Git / Version Control, Testing & QA, Pytest, System Design, RESTful APIs
+
+PROFESSIONAL EXPERIENCE
+Senior ML Engineer | CloudData Systems (2021 - Present)
+- Trained and tuned XGBoost and PyTorch neural networks for enterprise fraud detection with 94.2% precision.
+- Built containerized model microservices using Docker and FastAPI deployed on AWS SageMaker.
+- Mentored junior engineers on Unit Testing, code quality, and MLOps monitoring.
+
+ML Engineer | DataPulse Inc. (2019 - 2021)
+- Implemented Scikit-Learn pipelines and feature engineering workflows for customer churn modeling.
+- Managed model deployments using Docker and GitHub Actions CI/CD.
+
+EDUCATION
+- Master's in Data Science, University of Washington (2019)
+- B.S. in Statistics, Purdue University (2017)"
+3,CAND_003,Elena Rostova,Needs Upskilling,54.31,68.42,47.19,0.0,70.0,3.5,Bachelor's Degree,17,"AWS, Deep Learning, Docker, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, Scikit-Learn, XGBoost","CI/CD, GCP, SciPy, System Design, TensorFlow, Testing & QA",None,"Agile / Scrum, Git / Version Control, Linux, R","Elena Rostova has foundational familiarity but misses critical must-have competencies (CI/CD, GCP, SciPy, System Design). Matches only 13 of 19 core requirements.",Hold for junior or alternative role opening; requires upskilling.,#f59e0b,"['AWS', 'Deep Learning', 'Docker', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'Scikit-Learn', 'XGBoost']","['CI/CD', 'GCP', 'SciPy', 'System Design', 'TensorFlow', 'Testing & QA']",[],"['Agile / Scrum', 'Git / Version Control', 'Linux', 'R']","Elena Rostova
+Email: elena.r@example.com | Chicago, IL
+
+OBJECTIVE
+Machine Learning Engineer with 3.5 years of experience developing predictive models using Python, Scikit-Learn, and PyTorch. Seeking to expand into enterprise MLOps.
+
+SKILLS
+- Machine Learning, Deep Learning, PyTorch, Scikit-Learn, Pandas, NumPy, Python, SQL
+- Data Visualization: Matplotlib, Seaborn
+- Tools: Git / Version Control, Docker, Linux, RESTful APIs
+- Missing/Learning: Kubernetes, AWS SageMaker, MLOps
+
+EXPERIENCE
+ML Developer | FinTech Sol (2021 - Present)
+- Built regression and classification models using Scikit-Learn and XGBoost for credit scoring.
+- Assisted in containerizing inference scripts with Docker.
+- Wrote clean Python code with Git version control and participated in Agile sprints.
+
+EDUCATION
+- Bachelor's in Computer Science, University of Illinois (2021)"
+4,CAND_008,Kenji Takahashi,Needs Upskilling,47.85,36.84,44.58,66.67,90.0,4.5,Master's Degree,16,"AWS, Deep Learning, Docker, MLOps, PyTorch, Python, Scikit-Learn","CI/CD, GCP, Kubernetes, Machine Learning, NumPy, Pandas, SQL, SciPy, System Design, TensorFlow, Testing & QA, XGBoost","LangChain, Large Language Models, Transformers, Vector Databases","FastAPI, Git / Version Control, Microservices, Natural Language Processing, PostgreSQL","Kenji Takahashi has foundational familiarity but misses critical must-have competencies (CI/CD, GCP, Kubernetes, Machine Learning). Matches only 7 of 19 core requirements.",Hold for junior or alternative role opening; requires upskilling.,#f59e0b,"['AWS', 'Deep Learning', 'Docker', 'MLOps', 'PyTorch', 'Python', 'Scikit-Learn']","['CI/CD', 'GCP', 'Kubernetes', 'Machine Learning', 'NumPy', 'Pandas', 'SQL', 'SciPy', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']","['LangChain', 'Large Language Models', 'Transformers', 'Vector Databases']","['FastAPI', 'Git / Version Control', 'Microservices', 'Natural Language Processing', 'PostgreSQL']","Kenji Takahashi
+Email: kenji.t@example.com | Seattle, WA
+
+SUMMARY
+AI Systems Engineer with 4.5 years of experience building Natural Language Processing and Generative AI applications. Expert in Large Language Models (LLMs), RAG, LangChain, PyTorch, and Vector Databases.
+
+SKILLS
+- GenAI & NLP: Large Language Models, LangChain, Vector Databases, Transformers, PyTorch, Deep Learning, Natural Language Processing
+- Backend & Cloud: Python, FastAPI, RESTful APIs, Docker, AWS, Git / Version Control
+- Secondary: Scikit-Learn, MLOps, PostgreSQL
+
+EXPERIENCE
+Senior AI Engineer | CognitiveWorks (2022 - Present)
+- Developed production RAG pipeline using LangChain, Chroma vector database, and fine-tuned open-source LLMs.
+- Built low-latency asynchronous FastAPI microservices containerized with Docker on AWS.
+- Designed evaluation frameworks for hallucination detection and response quality.
+
+NLP Engineer | Lexicon Labs (2020 - 2022)
+- Trained transformer classification models using PyTorch and Hugging Face for enterprise document search.
+
+EDUCATION
+- M.S. in Artificial Intelligence, Carnegie Mellon University (2020)
+- B.S. in Computer Science, University of Washington (2018)"
+5,CAND_013,Jordan Lee,Low Fit (Reject),35.84,52.63,29.01,0.0,20.0,1.0,Bachelor's Degree,12,"Deep Learning, Docker, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, Scikit-Learn","AWS, CI/CD, GCP, Kubernetes, SciPy, System Design, TensorFlow, Testing & QA, XGBoost",None,"Flask, Git / Version Control","Jordan Lee shows substantial divergence from the job profile (35.8% fit). Lacks primary required stack (AWS, CI/CD, GCP, Kubernetes).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['Deep Learning', 'Docker', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'Scikit-Learn']","['AWS', 'CI/CD', 'GCP', 'Kubernetes', 'SciPy', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Flask', 'Git / Version Control']","Jordan Lee
+Email: jordan.lee@example.com | Austin, TX
+
+SUMMARY
+Enthusiastic Junior ML Developer with 1 year of project experience. Proficient in Python, Scikit-Learn, Pandas, and basic deep learning in PyTorch. Eager to learn MLOps and cloud engineering.
+
+SKILLS
+- Python, Scikit-Learn, Pandas, NumPy, Matplotlib, SQL, Git / Version Control, Machine Learning
+- Familiar with: Flask, Docker basics
+
+EXPERIENCE
+Junior ML Intern | DataLab (2023 - Present)
+- Assisted senior data scientists with feature preprocessing in Pandas and model validation in Scikit-Learn.
+- Built interactive exploratory data analysis notebooks.
+
+EDUCATION
+- B.S. in Mathematics, UT Austin (2023)"
+6,CAND_011,Aarav Patel,Low Fit (Reject),34.85,21.05,34.41,33.33,100.0,5.0,Master's Degree,13,"AWS, Docker, Python, SQL","CI/CD, Deep Learning, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost","Apache Kafka, Apache Spark","Apache Airflow, Data Warehousing, Databricks, Git / Version Control, PostgreSQL, Scala, Snowflake","Aarav Patel shows substantial divergence from the job profile (34.9% fit). Lacks primary required stack (CI/CD, Deep Learning, GCP, Kubernetes).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'Docker', 'Python', 'SQL']","['CI/CD', 'Deep Learning', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']","['Apache Kafka', 'Apache Spark']","['Apache Airflow', 'Data Warehousing', 'Databricks', 'Git / Version Control', 'PostgreSQL', 'Scala', 'Snowflake']","Aarav Patel, M.S.
+Email: aarav.patel@example.com | Atlanta, GA
+
+SUMMARY
+Data Engineer with 5 years of experience building distributed batch and streaming pipelines. Expert in Apache Spark, Apache Kafka, Apache Airflow, Snowflake, and Python.
+
+TECHNICAL SKILLS
+- Big Data & Data Warehousing: Apache Spark, PySpark, Apache Kafka, Apache Airflow, Snowflake, Databricks, PostgreSQL, Data Warehousing, SQL
+- Languages & Cloud: Python, Scala, SQL, AWS (S3, EMR, Redshift), Docker, Git / Version Control
+
+EXPERIENCE
+Senior Data Platform Engineer | FinFlow (2021 - Present)
+- Architected enterprise ETL pipelines processing 10 TBs daily using PySpark and Apache Airflow on AWS.
+- Modeled scalable data warehouses in Snowflake reducing query times by 50%.
+
+EDUCATION
+- M.S. in Information Systems, Georgia Tech (2019)"
+7,CAND_016,Gabriel Santos,Low Fit (Reject),30.75,31.58,18.69,0.0,100.0,8.5,Master's Degree,10,"AWS, CI/CD, Docker, GCP, Kubernetes, System Design","Deep Learning, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, TensorFlow, Testing & QA, XGBoost",None,"Bash/Shell, Leadership, Linux, Terraform","Gabriel Santos shows substantial divergence from the job profile (30.8% fit). Lacks primary required stack (Deep Learning, MLOps, Machine Learning, NumPy).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'CI/CD', 'Docker', 'GCP', 'Kubernetes', 'System Design']","['Deep Learning', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Bash/Shell', 'Leadership', 'Linux', 'Terraform']","Gabriel Santos
+Email: gabriel.santos@example.com | New York, NY
+
+SUMMARY
+Principal Cloud Architect with 8.5 years of experience leading multi-cloud infrastructure transformations across AWS and GCP. Expert in Kubernetes, Terraform, System Design, and Enterprise Security.
+
+SKILLS
+- AWS, GCP, Terraform, Kubernetes, Docker, Linux, Bash/Shell, CI/CD, System Design, Distributed Systems, Leadership, Monitoring & Logging
+
+EXPERIENCE
+Principal Cloud Architect | FinCloud Global (2019 - Present)
+- Directed cloud governance and automated infrastructure provisioning using Terraform across 300+ AWS accounts.
+- Led SRE team of 14 engineers in achieving five-nines availability (99.999%).
+
+EDUCATION
+- M.S. in Computer Engineering, Columbia University (2016)"
+8,CAND_012,Dr. Lucas Meyer,Low Fit (Reject),30.42,26.32,24.51,0.0,100.0,5.0,Ph.D.,9,"Deep Learning, Docker, PyTorch, Python, TensorFlow","AWS, CI/CD, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, SQL, SciPy, Scikit-Learn, System Design, Testing & QA, XGBoost",None,"C, Computer Vision, Git / Version Control, Linux","Dr. Lucas Meyer shows substantial divergence from the job profile (30.4% fit). Lacks primary required stack (AWS, CI/CD, GCP, Kubernetes).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['Deep Learning', 'Docker', 'PyTorch', 'Python', 'TensorFlow']","['AWS', 'CI/CD', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'Testing & QA', 'XGBoost']",[],"['C', 'Computer Vision', 'Git / Version Control', 'Linux']","Dr. Lucas Meyer
+Email: lucas.meyer@example.com | Boston, MA
+
+SUMMARY
+Computer Vision and Deep Learning Specialist with 5 years of experience deploying spatial perception models. Expert in PyTorch, OpenCV, Computer Vision, C++, and Python.
+
+SKILLS
+- Deep Learning, Computer Vision, PyTorch, TensorFlow, OpenCV, Python, C++, Docker, Linux, Git / Version Control
+
+EXPERIENCE
+Computer Vision Engineer | VisionTech (2021 - Present)
+- Designed real-time object detection models using PyTorch and YOLO with edge inference optimization.
+- Published 4 peer-reviewed papers on neural video segmentation.
+
+EDUCATION
+- Ph.D. in Computer Vision, MIT (2020)"
+9,CAND_006,David 'Kip' Miller,Low Fit (Reject),30.13,31.58,16.92,0.0,100.0,6.0,Bachelor's Degree,15,"AWS, CI/CD, Docker, Kubernetes, Python, System Design","Deep Learning, GCP, MLOps, Machine Learning, NumPy, Pandas, PyTorch, SQL, SciPy, Scikit-Learn, TensorFlow, Testing & QA, XGBoost",None,"Agile / Scrum, Ansible, Bash/Shell, Git / Version Control, Go, Linux, Microservices, Monitoring & Logging","David 'Kip' Miller shows substantial divergence from the job profile (30.1% fit). Lacks primary required stack (Deep Learning, GCP, MLOps, Machine Learning).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'CI/CD', 'Docker', 'Kubernetes', 'Python', 'System Design']","['Deep Learning', 'GCP', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'SQL', 'SciPy', 'Scikit-Learn', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Agile / Scrum', 'Ansible', 'Bash/Shell', 'Git / Version Control', 'Go', 'Linux', 'Microservices', 'Monitoring & Logging', 'Terraform']","David Miller
+Email: david.miller@example.com | Austin, TX
+
+SUMMARY
+Senior DevOps & Infrastructure Engineer with 6 years of experience managing distributed cloud clusters. Expert in Kubernetes, Docker, Terraform, AWS, and zero-downtime CI/CD pipelines.
+
+SKILLS
+- Cloud & Infrastructure: AWS, Docker, Kubernetes, Terraform, Ansible, Linux, Bash/Shell
+- CI/CD & Automation: CI/CD, GitHub Actions, Jenkins, Python, Go
+- Observability: Monitoring & Logging, Prometheus, Grafana, ELK Stack
+- Architecture: System Design, Distributed Systems, Git / Version Control, Agile / Scrum
+
+WORK EXPERIENCE
+Lead Infrastructure Engineer | Apex Cloud (2021 - Present)
+- Administered 15+ multi-region Kubernetes (EKS) clusters with Terraform and Helm.
+- Implemented automated GitOps CI/CD pipelines deploying 120+ microservices daily.
+- Reduced cloud spend by 30% through automated AWS spot instance provisioning.
+
+DevOps Engineer | Stratus Systems (2018 - 2021)
+- Migrated bare-metal workloads to Docker and AWS using Terraform.
+- Built monitoring dashboards in Prometheus and Grafana for system health telemetry.
+
+EDUCATION
+- B.S. in Computer Engineering, Texas A&M University (2018)"
+10,CAND_014,Vikram Sethi,Low Fit (Reject),26.3,21.05,19.5,0.0,100.0,7.0,Bachelor's Degree,10,"AWS, Docker, Kubernetes, System Design","CI/CD, Deep Learning, GCP, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, TensorFlow, Testing & QA, XGBoost",None,"Java, Microservices, MySQL, PostgreSQL, Redis, Spring Boot","Vikram Sethi shows substantial divergence from the job profile (26.3% fit). Lacks primary required stack (CI/CD, Deep Learning, GCP, MLOps).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'Docker', 'Kubernetes', 'System Design']","['CI/CD', 'Deep Learning', 'GCP', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Java', 'Microservices', 'MySQL', 'PostgreSQL', 'Redis', 'Spring Boot']","Vikram Sethi
+Email: vikram.sethi@example.com | Chicago, IL
+
+SUMMARY
+Senior Backend Systems Engineer with 7 years of experience designing mission-critical distributed architectures. Deep expertise in Java, Spring Boot, Microservices, PostgreSQL, and AWS.
+
+SKILLS
+- Java, Spring Boot, Microservices, RESTful APIs, PostgreSQL, MySQL, Redis, Docker, Kubernetes, AWS, System Design, Distributed Systems
+
+EXPERIENCE
+Lead Backend Engineer | Enterprise Core (2020 - Present)
+- Architected enterprise banking microservices in Spring Boot handling 10,000 TPS.
+- Led migration from monolithic architecture to Kubernetes-hosted microservices.
+
+EDUCATION
+- B.Tech in Computer Science, IIT Delhi (2017)"
+11,CAND_005,Priya Sharma,Low Fit (Reject),26.11,26.32,17.91,0.0,80.0,4.0,Master's Degree,19,"CI/CD, Docker, Python, SQL, Testing & QA","AWS, Deep Learning, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, SciPy, Scikit-Learn, System Design, TensorFlow, XGBoost",None,"Agile / Scrum, Express, Git / Version Control, HTML/CSS, JavaScript, Microservices, MongoDB, MySQL","Priya Sharma shows substantial divergence from the job profile (26.1% fit). Lacks primary required stack (AWS, Deep Learning, GCP, Kubernetes).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['CI/CD', 'Docker', 'Python', 'SQL', 'Testing & QA']","['AWS', 'Deep Learning', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'XGBoost']",[],"['Agile / Scrum', 'Express', 'Git / Version Control', 'HTML/CSS', 'JavaScript', 'Microservices', 'MongoDB', 'MySQL', 'Next.js', 'Node.js', 'PostgreSQL', 'React', 'Tailwind CSS', 'TypeScript']","Priya Sharma
+Email: priya.sharma@example.com | San Jose, CA
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 4 years of experience delivering robust web platforms using React, Node.js, Express, TypeScript, and relational databases.
+
+SKILLS
+- Languages: JavaScript, TypeScript, Python, SQL, HTML/CSS
+- Frameworks: React, Node.js, Express, Next.js, Tailwind CSS
+- Databases: PostgreSQL, MySQL, MongoDB
+- Tools: Docker, Git / Version Control, Jest, CI/CD, Agile / Scrum
+
+EXPERIENCE
+Full Stack Software Engineer | TechSphere Solutions (2020 - Present)
+- Built modular React web components and backend Node.js microservices.
+- Created automated unit testing suites in Jest and implemented GitHub Actions CI/CD.
+- Integrated payment gateways and external partner RESTful APIs.
+
+EDUCATION
+- M.S. in Computer Science, San Jose State University (2020)"
+12,CAND_004,Alex Rivera,Low Fit (Reject),25.97,26.32,11.79,0.0,100.0,5.5,Bachelor's Degree,21,"AWS, CI/CD, Docker, System Design, Testing & QA","Deep Learning, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, TensorFlow, XGBoost",None,"Agile / Scrum, Express, Git / Version Control, GraphQL, HTML/CSS, JavaScript, Microservices, MongoDB","Alex Rivera shows substantial divergence from the job profile (26.0% fit). Lacks primary required stack (Deep Learning, GCP, Kubernetes, MLOps).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'CI/CD', 'Docker', 'System Design', 'Testing & QA']","['Deep Learning', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'TensorFlow', 'XGBoost']",[],"['Agile / Scrum', 'Express', 'Git / Version Control', 'GraphQL', 'HTML/CSS', 'JavaScript', 'Microservices', 'MongoDB', 'MySQL', 'Next.js', 'Node.js', 'PostgreSQL', 'React', 'Redis', 'Tailwind CSS', 'TypeScript']","Alex Rivera
+Email: alex.rivera@example.com | New York, NY | github.com/arivera-dev
+
+EXECUTIVE SUMMARY
+Senior Full Stack Engineer with 5.5 years of experience building high-throughput web applications. Expert in React, Next.js, Node.js, TypeScript, PostgreSQL, and Dockerized cloud microservices.
+
+TECHNICAL SKILLS
+- Frontend: React, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind CSS, Redux
+- Backend: Node.js, Express, RESTful APIs, GraphQL, Microservices
+- Databases: PostgreSQL, MySQL, Redis, MongoDB
+- DevOps & Tools: Docker, Git / Version Control, Testing & QA (Jest, Cypress), CI/CD, AWS
+- Practices: System Design, Agile / Scrum, Code Review
+
+EXPERIENCE
+Senior Full Stack Engineer | Nova Web Labs (2021 - Present)
+- Led frontend migration to Next.js and React with TypeScript, improving Core Web Vitals by 42%.
+- Designed and documented scalable RESTful APIs in Node.js and Express serving 2M monthly users.
+- Optimized PostgreSQL database queries, reducing p99 latency from 850ms to 95ms.
+
+Full Stack Developer | PixelCraft Studio (2019 - 2021)
+- Developed responsive web interfaces using React, JavaScript, and Tailwind CSS.
+- Implemented backend authentication and user management using Node.js and PostgreSQL.
+
+EDUCATION
+- B.S. in Software Engineering, Rochester Institute of Technology (2019)"
+13,CAND_017,Liam O'Reilly,Low Fit (Reject),24.55,26.32,10.6,0.0,90.0,4.5,Bachelor's Degree,11,"AWS, CI/CD, Docker, Kubernetes, Python","Deep Learning, GCP, MLOps, Machine Learning, NumPy, Pandas, PyTorch, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,"Ansible, Bash/Shell, Go, Linux, Monitoring & Logging, Terraform","Liam O'Reilly shows substantial divergence from the job profile (24.6% fit). Lacks primary required stack (Deep Learning, GCP, MLOps, Machine Learning).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['AWS', 'CI/CD', 'Docker', 'Kubernetes', 'Python']","['Deep Learning', 'GCP', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Ansible', 'Bash/Shell', 'Go', 'Linux', 'Monitoring & Logging', 'Terraform']","Liam O'Reilly
+Email: liam.oreilly@example.com | Dublin / Remote
+
+SUMMARY
+Site Reliability Engineer with 4.5 years of experience automating infrastructure operations, incident response, and observability.
+
+SKILLS
+- Linux, Kubernetes, Docker, Terraform, Ansible, CI/CD, Prometheus, Grafana, Python, Go, Bash/Shell, AWS
+
+EXPERIENCE
+SRE | ScaledOps (2021 - Present)
+- Maintained distributed Kubernetes clusters on AWS with automated Prometheus and Grafana alerts.
+- Built custom infrastructure telemetry exporters in Go and Python.
+
+EDUCATION
+- B.S. in Computing, Trinity College Dublin (2020)"
+14,CAND_007,Jessica Taylor,Low Fit (Reject),23.89,26.32,8.71,0.0,90.0,4.5,Bachelor's Degree,13,"GCP, NumPy, Pandas, Python, SQL","AWS, CI/CD, Deep Learning, Docker, Kubernetes, MLOps, Machine Learning, PyTorch, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,"C, Communication, Data Warehousing, Leadership, Problem Solving, Project Management, Snowflake, Time Series Analysis","Jessica Taylor shows substantial divergence from the job profile (23.9% fit). Lacks primary required stack (AWS, CI/CD, Deep Learning, Docker).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['GCP', 'NumPy', 'Pandas', 'Python', 'SQL']","['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'Kubernetes', 'MLOps', 'Machine Learning', 'PyTorch', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['C', 'Communication', 'Data Warehousing', 'Leadership', 'Problem Solving', 'Project Management', 'Snowflake', 'Time Series Analysis']","Jessica Taylor
+Email: jessica.t@example.com | Boston, MA
+
+SUMMARY
+Lead Data Analyst with 4.5 years of experience applying SQL, Python, and business intelligence dashboards to drive revenue growth and operational optimization.
+
+SKILLS
+- Analytics & Modeling: SQL, Python, Pandas, NumPy, Data Warehousing, Statistics, A/B Testing
+- Visualization: Tableau, PowerBI, Matplotlib, Seaborn
+- Soft Skills: Problem Solving, Communication, Stakeholder Management, Project Management
+
+EXPERIENCE
+Lead Analytics Consultant | Beacon Insights (2021 - Present)
+- Formulated complex SQL data pipelines in Snowflake and BigQuery for customer lifetime value (LTV) forecasting.
+- Designed 25+ executive dashboards in Tableau used weekly by C-level leadership.
+- Conducted multivariate statistical experiments and A/B testing on pricing models.
+
+Data Analyst | RetailMetric Group (2019 - 2021)
+- Cleaned and transformed high-volume transactional data using Python and Pandas.
+- Partnered with product managers to define KPIs and tracking schemas.
+
+EDUCATION
+- B.S. in Statistics and Economics, Boston College (2019)"
+15,CAND_020,Meera Raman,Low Fit (Reject),23.61,15.79,18.57,0.0,100.0,6.0,Master's Degree,8,"Machine Learning, SQL, System Design","AWS, CI/CD, Deep Learning, Docker, GCP, Kubernetes, MLOps, NumPy, Pandas, PyTorch, Python, SciPy, Scikit-Learn, TensorFlow, Testing & QA, XGBoost",None,"Agile / Scrum, Collaboration, Communication, Leadership, Project Management","Meera Raman shows substantial divergence from the job profile (23.6% fit). Lacks primary required stack (AWS, CI/CD, Deep Learning, Docker).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['Machine Learning', 'SQL', 'System Design']","['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'GCP', 'Kubernetes', 'MLOps', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SciPy', 'Scikit-Learn', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Agile / Scrum', 'Collaboration', 'Communication', 'Leadership', 'Project Management']","Meera Raman, MBA
+Email: meera.raman@example.com | Seattle, WA
+
+SUMMARY
+Technical Product Manager with 6 years leading AI/ML and enterprise software products from ideation to scale.
+
+SKILLS
+- Product Management, Agile / Scrum, Jira, System Design, Communication, Leadership, SQL, Stakeholder Management
+
+EXPERIENCE
+Senior Technical Product Manager | Horizon Software (2020 - Present)
+- Led cross-functional roadmap for predictive intelligence features driving $14M ARR.
+- Partnered with ML engineering teams to define model acceptance criteria and SLAs.
+
+EDUCATION
+- MBA, Kellogg School of Management (2018)
+- B.S. in Computer Science (2015)"
+16,CAND_018,Fatima Al-Mansoor,Low Fit (Reject),18.76,15.79,10.44,0.0,80.0,4.0,Bachelor's Degree,11,"CI/CD, Docker, Python","AWS, Deep Learning, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,"Django, FastAPI, Git / Version Control, HTML/CSS, JavaScript, PostgreSQL, React, TypeScript","Fatima Al-Mansoor shows substantial divergence from the job profile (18.8% fit). Lacks primary required stack (AWS, Deep Learning, GCP, Kubernetes).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['CI/CD', 'Docker', 'Python']","['AWS', 'Deep Learning', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['Django', 'FastAPI', 'Git / Version Control', 'HTML/CSS', 'JavaScript', 'PostgreSQL', 'React', 'TypeScript']","Fatima Al-Mansoor
+Email: fatima.m@example.com | London, UK
+
+SUMMARY
+Full Stack Engineer with 4 years of experience building modern web portals using React, Python, Django, FastAPI, and PostgreSQL.
+
+SKILLS
+- React, JavaScript, TypeScript, Python, Django, FastAPI, RESTful APIs, PostgreSQL, Docker, Git / Version Control, HTML/CSS
+
+EXPERIENCE
+Software Engineer | GlobalWeb Ltd (2020 - Present)
+- Engineered high-traffic portals using React and FastAPI with asynchronous PostgreSQL connections.
+- Deployed Dockerized applications on cloud infrastructure with GitHub Actions CI/CD.
+
+EDUCATION
+- B.Sc. in Software Engineering, University of Manchester (2020)"
+17,CAND_019,Brandon Cole,Low Fit (Reject),17.7,15.79,10.26,0.0,70.0,3.5,Bachelor's Degree,10,"Pandas, Python, SQL","AWS, CI/CD, Deep Learning, Docker, GCP, Kubernetes, MLOps, Machine Learning, NumPy, PyTorch, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,"C, Communication, Data Warehousing, Problem Solving, Project Management, Snowflake, Time Series Analysis","Brandon Cole shows substantial divergence from the job profile (17.7% fit). Lacks primary required stack (AWS, CI/CD, Deep Learning, Docker).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,"['Pandas', 'Python', 'SQL']","['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'PyTorch', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['C', 'Communication', 'Data Warehousing', 'Problem Solving', 'Project Management', 'Snowflake', 'Time Series Analysis']","Brandon Cole
+Email: brandon.c@example.com | Charlotte, NC
+
+SUMMARY
+BI Analyst with 3.5 years of experience transforming transactional sales data into executive dashboards and predictive KPIs.
+
+SKILLS
+- SQL, Tableau, PowerBI, Python, Pandas, Statistics, Data Warehousing, Communication, Problem Solving
+
+EXPERIENCE
+BI Analyst | Vanguard Retail (2021 - Present)
+- Designed automated PowerBI reporting models connected to Snowflake data warehouse.
+- Delivered weekly revenue forecasting models using Python and Pandas.
+
+EDUCATION
+- B.S. in Economics, UNC Chapel Hill (2021)"
+18,CAND_015,Chloe Dupont,Low Fit (Reject),15.51,5.26,8.97,0.0,100.0,5.0,Bachelor's Degree,10,Testing & QA,"AWS, CI/CD, Deep Learning, Docker, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, XGBoost",None,"Agile / Scrum, Git / Version Control, GraphQL, HTML/CSS, JavaScript, Next.js, React, Tailwind CSS","Chloe Dupont shows substantial divergence from the job profile (15.5% fit). Lacks primary required stack (AWS, CI/CD, Deep Learning, Docker).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,['Testing & QA'],"['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'XGBoost']",[],"['Agile / Scrum', 'Git / Version Control', 'GraphQL', 'HTML/CSS', 'JavaScript', 'Next.js', 'React', 'Tailwind CSS', 'TypeScript']","Chloe Dupont
+Email: chloe.dupont@example.com | Montreal / Remote
+
+SUMMARY
+Senior Frontend Engineer with 5 years specializing in React, Next.js, TypeScript, and modern CSS architecture. Passionate about web performance and accessibility.
+
+SKILLS
+- React, Next.js, TypeScript, JavaScript, HTML/CSS, Tailwind CSS, GraphQL, Jest, Git / Version Control, Agile / Scrum
+
+EXPERIENCE
+Lead Frontend Developer | UI Dynamics (2021 - Present)
+- Rebuilt design system using React and Tailwind CSS adopted across 8 engineering teams.
+- Optimized bundle sizes and lazy-loading in Next.js, achieving 98+ Lighthouse scores.
+
+EDUCATION
+- B.S. in Computer Science, McGill University (2019)"
+19,CAND_009,Robert 'Bob' Jenkins,Low Fit (Reject),6.45,5.26,4.82,0.0,24.0,1.2,Diploma / Associate,3,CI/CD,"AWS, Deep Learning, Docker, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,"HTML/CSS, JavaScript","Robert 'Bob' Jenkins shows substantial divergence from the job profile (6.5% fit). Lacks primary required stack (AWS, Deep Learning, Docker, GCP).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,['CI/CD'],"['AWS', 'Deep Learning', 'Docker', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],"['HTML/CSS', 'JavaScript']","Robert Jenkins
+Email: bob.j@example.com | Dallas, TX
+
+SUMMARY
+Junior Web Enthusiast with 1 year of experience building basic websites. Familiar with HTML, CSS, and elementary JavaScript.
+
+SKILLS
+- HTML/CSS, JavaScript, WordPress, Photoshop
+- Seeking entry-level web developer or content coordinator role.
+
+EXPERIENCE
+Junior Web Coordinator | Local Agency (2023 - Present)
+- Updated static HTML and CSS pages for retail clients.
+- Uploaded assets and wrote blog descriptions in WordPress.
+
+EDUCATION
+- Associate Degree in Graphic Design, Dallas Community College (2022)"
+20,CAND_010,Samantha O'Connor,Low Fit (Reject),6.34,0.0,0.98,0.0,60.0,3.0,Not Specified,1,None,"AWS, CI/CD, Deep Learning, Docker, GCP, Kubernetes, MLOps, Machine Learning, NumPy, Pandas, PyTorch, Python, SQL, SciPy, Scikit-Learn, System Design, TensorFlow, Testing & QA, XGBoost",None,Communication,"Samantha O'Connor shows substantial divergence from the job profile (6.3% fit). Lacks primary required stack (AWS, CI/CD, Deep Learning, Docker).",Polite rejection or redirect to matching entry-level opportunities.,#ef4444,[],"['AWS', 'CI/CD', 'Deep Learning', 'Docker', 'GCP', 'Kubernetes', 'MLOps', 'Machine Learning', 'NumPy', 'Pandas', 'PyTorch', 'Python', 'SQL', 'SciPy', 'Scikit-Learn', 'System Design', 'TensorFlow', 'Testing & QA', 'XGBoost']",[],['Communication'],"Samantha O'Connor
+Email: samantha.oc@example.com | Denver, CO
+
+SUMMARY
+Marketing & SEO Specialist with 3 years of experience managing social media campaigns, Google Ads, and content marketing.
+
+SKILLS
+- Digital Marketing, SEO, Google Analytics, Content Strategy, Copywriting, Communication, Social Media
+- Tools: Canva, WordPress, Mailchimp
+
+EXPERIENCE
+Marketing Specialist | Peak Growth Agency (2021 - Present)
+- Increased website organic traffic by 40% through SEO optimization.
+- Managed paid social ad spend across Facebook and Instagram.
+
+EDUCATION
+- B.A. in Communications, University of Colorado Boulder (2021)"

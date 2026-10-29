@@ -1,0 +1,25 @@
+Marcus Vance, M.S.
+Email: marcus.vance@example.com | Phone: +1-555-014-9921
+Seattle, WA
+
+SUMMARY
+Results-driven Machine Learning Engineer with 5 years of industry experience. Specialized in productionizing supervised and unsupervised algorithms, building scalable RESTful APIs, and implementing robust MLOps practices on AWS.
+
+TECHNICAL SKILLS
+- Core: Python, SQL, Scikit-Learn, PyTorch, TensorFlow, XGBoost, Pandas, NumPy
+- Infrastructure: Docker, Kubernetes, AWS (SageMaker, EC2, S3), CI/CD, MLOps, Linux
+- Software Engineering: Git / Version Control, Testing & QA, Pytest, System Design, RESTful APIs
+
+PROFESSIONAL EXPERIENCE
+Senior ML Engineer | CloudData Systems (2021 - Present)
+- Trained and tuned XGBoost and PyTorch neural networks for enterprise fraud detection with 94.2% precision.
+- Built containerized model microservices using Docker and FastAPI deployed on AWS SageMaker.
+- Mentored junior engineers on Unit Testing, code quality, and MLOps monitoring.
+
+ML Engineer | DataPulse Inc. (2019 - 2021)
+- Implemented Scikit-Learn pipelines and feature engineering workflows for customer churn modeling.
+- Managed model deployments using Docker and GitHub Actions CI/CD.
+
+EDUCATION
+- Master's in Data Science, University of Washington (2019)
+- B.S. in Statistics, Purdue University (2017)

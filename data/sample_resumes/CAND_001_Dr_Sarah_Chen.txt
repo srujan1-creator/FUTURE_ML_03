@@ -1,0 +1,27 @@
+Dr. Sarah Chen, Ph.D.
+Email: sarah.chen@example.com | Phone: +1-555-019-2834 | LinkedIn: linkedin.com/in/sarahchen-ml
+San Francisco, CA
+
+PROFESSIONAL SUMMARY
+Senior Machine Learning Engineer with 6.5 years of experience researching, architecting, and deploying predictive ML and Deep Learning systems to cloud production. Expert in PyTorch, Scikit-Learn, MLOps, and Kubernetes-orchestrated distributed model serving.
+
+TECHNICAL SKILLS
+- Programming: Python, SQL, C++, Bash/Shell
+- ML & Deep Learning: Machine Learning, Deep Learning, PyTorch, TensorFlow, Scikit-Learn, XGBoost, Pandas, NumPy, SciPy
+- MLOps & Cloud: MLOps, MLflow, Docker, Kubernetes, AWS (SageMaker, S3, EC2), CI/CD
+- Architecture & Practices: System Design, Distributed Systems, Git / Version Control, Unit Testing, Agile / Scrum
+- Bonus Skills: Transformers, Natural Language Processing, Vector Databases, Large Language Models
+
+WORK EXPERIENCE
+Staff Machine Learning Engineer | HyperScale AI (2021 - Present)
+- Architected automated MLOps training and evaluation pipeline using MLflow, Docker, and Kubernetes on AWS, cutting model retraining turnaround by 65%.
+- Developed real-time recommendation systems and gradient boosting models using Scikit-Learn and XGBoost handling 40M daily predictions.
+- Led model governance, drift monitoring, and CI/CD deployment pipelines with zero downtime.
+
+Machine Learning Engineer | Apex Analytics (2018 - 2021)
+- Built deep learning NLP classification models in PyTorch and TensorFlow for multi-lingual text extraction.
+- Engineered automated feature stores in SQL and Pandas, collaborating closely with data engineering.
+
+EDUCATION
+- Ph.D. in Computer Science (Machine Learning Focus), Stanford University (2018)
+- B.S. in Computer Science, UC Berkeley (2014)

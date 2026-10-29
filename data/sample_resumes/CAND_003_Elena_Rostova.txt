@@ -1,0 +1,20 @@
+Elena Rostova
+Email: elena.r@example.com | Chicago, IL
+
+OBJECTIVE
+Machine Learning Engineer with 3.5 years of experience developing predictive models using Python, Scikit-Learn, and PyTorch. Seeking to expand into enterprise MLOps.
+
+SKILLS
+- Machine Learning, Deep Learning, PyTorch, Scikit-Learn, Pandas, NumPy, Python, SQL
+- Data Visualization: Matplotlib, Seaborn
+- Tools: Git / Version Control, Docker, Linux, RESTful APIs
+- Missing/Learning: Kubernetes, AWS SageMaker, MLOps
+
+EXPERIENCE
+ML Developer | FinTech Sol (2021 - Present)
+- Built regression and classification models using Scikit-Learn and XGBoost for credit scoring.
+- Assisted in containerizing inference scripts with Docker.
+- Wrote clean Python code with Git version control and participated in Agile sprints.
+
+EDUCATION
+- Bachelor's in Computer Science, University of Illinois (2021)

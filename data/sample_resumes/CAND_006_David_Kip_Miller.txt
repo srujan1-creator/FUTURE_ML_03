@@ -1,0 +1,24 @@
+David Miller
+Email: david.miller@example.com | Austin, TX
+
+SUMMARY
+Senior DevOps & Infrastructure Engineer with 6 years of experience managing distributed cloud clusters. Expert in Kubernetes, Docker, Terraform, AWS, and zero-downtime CI/CD pipelines.
+
+SKILLS
+- Cloud & Infrastructure: AWS, Docker, Kubernetes, Terraform, Ansible, Linux, Bash/Shell
+- CI/CD & Automation: CI/CD, GitHub Actions, Jenkins, Python, Go
+- Observability: Monitoring & Logging, Prometheus, Grafana, ELK Stack
+- Architecture: System Design, Distributed Systems, Git / Version Control, Agile / Scrum
+
+WORK EXPERIENCE
+Lead Infrastructure Engineer | Apex Cloud (2021 - Present)
+- Administered 15+ multi-region Kubernetes (EKS) clusters with Terraform and Helm.
+- Implemented automated GitOps CI/CD pipelines deploying 120+ microservices daily.
+- Reduced cloud spend by 30% through automated AWS spot instance provisioning.
+
+DevOps Engineer | Stratus Systems (2018 - 2021)
+- Migrated bare-metal workloads to Docker and AWS using Terraform.
+- Built monitoring dashboards in Prometheus and Grafana for system health telemetry.
+
+EDUCATION
+- B.S. in Computer Engineering, Texas A&M University (2018)
